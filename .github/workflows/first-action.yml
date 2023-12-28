@@ -1,0 +1,11 @@
+name: Printer
+on: workflow_dispatch
+jobs:
+  initial-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print the greeting
+        run: echo "hello from the Printer workflow"
+      - name: Print the goodbye
+        run: echo "Bye"
+  
